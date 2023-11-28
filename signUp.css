@@ -1,11 +1,14 @@
 :root{
-    background-image: linear-gradient(to right, #1a4416, rgb(46, 129, 74));
+    /* background-image: linear-gradient(to right, #1a4416, rgb(46, 129, 74)); */
     --fontFamily : 'Roboto';
     --colorText : white;
     --checkColor : #1a4416;
 }
 *{
     font-family: var(--fontFamily);
+}
+body{
+    background-image: linear-gradient(to right, #1a4416, rgb(46, 129, 74));  
 }
 .container{
  background-color: white;
@@ -16,7 +19,7 @@
  /* box-shadow: 2px solid black; */
  display: flex;
  margin: 0px auto;
-padding: 16px;
+padding: 10px;
 box-shadow: 5px 5px 10px #242323;
 }
 .login{

@@ -22,7 +22,25 @@ footer{
  height: 300px;
  width: 100%;   
 }
-
+.mainProduct{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px;
+}
+.items{
+    background-color: rgb(88, 40, 40);
+    border-radius: 5px;
+    width:340px;
+    height: 200px;
+    margin-left:100px;
+    line-height: 1.3em;
+}
+.items>img{
+    box-shadow: 3px 5px 5px 3px rgb(31, 31, 31);
+}
+#imgP:hover{
+    transform: scale(30px);
+}
 a{
     color:black !important;
 }
