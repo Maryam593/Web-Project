@@ -9,32 +9,30 @@
     padding: 0;
     font-family: var(--fontFamily);
 }
-header{
-    height:80px;
-    background-color: var(--checkColor);
-    width: 100%;
+nav{
+    background-color: white;
+}
+#one{
+    padding: 5px;
+  
+    
+}
+footer{
+ background-color: rgb(39, 39, 39);
+ height: 300px;
+ width: 100%;   
 }
 
 a{
-    color:var(--colorText);
-    text-decoration: none;
-    padding: 30px;
-   
+    color:black !important;
 }
-.navImagee{
-   width:10%;}
-ul{
-    display: flex;
-            list-style: none;
-            justify-content: flex-end;
-            align-items: center;
-            padding: 20px;
-            
+.navbar-brand{
+    border-radius: 100px;
 }
-.navbarBrand{
-    display: flex;
-    justify-content: flex-start !important;
+#navImagee{
+    width: 60px;
 }
+
 img{
     object-fit: cover;
 }
@@ -54,8 +52,8 @@ img{
 }
 #loginBtn , #signInBtn{
 
-   padding: 5px;
-   margin-left: 5px;
+   /* padding: 5px;
+   margin-left: 5px; */
    background-color: var(--checkColor);
    font-size: 15px;
 }
@@ -85,6 +83,7 @@ img{
 #imgAbout{
     margin-left:70px;
 }
+
 @media only screen and (max-width : 452px) {
 
     .AboutBrand{
@@ -105,5 +104,9 @@ img{
     }
     #imgAbout{
         margin-left: 4px;
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
     }
 }
