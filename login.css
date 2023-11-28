@@ -1,0 +1,62 @@
+:root{
+    background-image: linear-gradient(to right, #1a4416, rgb(46, 129, 74));
+    --fontFamily : 'Roboto';
+    --colorText : white;
+    --checkColor : #1a4416;
+}
+*{
+    font-family: var(--fontFamily);
+}
+.container{
+ background-color: white;
+ height:600px;
+ width:30%;
+ border-radius: 5px;
+ border:1px solid gray;
+ /* box-shadow: 2px solid black; */
+ display: flex;
+ margin: 0px auto;
+padding: 16px;
+box-shadow: 5px 5px 10px #242323;
+}
+.login{
+  padding: 10px;
+}
+#name, #password{
+    height:50px;
+    width:27vw;
+    border-radius: 25px;
+    border-style: none;
+    border:1px solid rgb(189, 189, 192);
+    text-align: center; 
+}
+h1{
+   margin-top: 50px;
+   text-align: center;
+}
+p{
+    text-align: center;
+}
+#loginBtn{
+    height:50px;
+    width:27vw;
+    border-radius: 25px;
+    border-style: none;
+    border:1px solid rgb(189, 189, 192);
+    background-color: #1a4416;
+    text-align: center; 
+    color: var(--colorText);
+}
+#loginBtn:hover{
+    background-color: black;
+    color:var(--colorText);
+}
+#trueecheck{
+    color:var(--checkColor);
+    display: block;
+    text-align: end;
+   
+}
+#signUp{
+    color: var(--checkColor);
+}
