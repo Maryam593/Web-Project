@@ -21,7 +21,8 @@ a{
     padding: 30px;
    
 }
-
+.navImagee{
+   width:10%;}
 ul{
     display: flex;
             list-style: none;
