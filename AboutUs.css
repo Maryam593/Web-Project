@@ -74,24 +74,7 @@ img{
     padding:20px;
     
 }
-#loginBtn , #signInBtn{
 
-   /* padding: 5px;
-   margin-left: 5px; */
-   background-color: var(--checkColor);
-   font-size: 15px;
-}
-#loginBtn :hover{
-    box-shadow: 3px 5px 5px green;
-    border-radius: 50px;
-    height:20px;
-  
-}
-#signInBtn :hover{
-    box-shadow: 3px 5px 5px green;
-    border-radius: 50px;
-    height:20px;
-}
 
 .AboutBrand
 {
@@ -99,6 +82,16 @@ img{
     grid-template-columns: 500px 600px;
     gap: 10px;
     
+}
+.p-4{
+    height:190px;
+}
+.card-columns{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 210px 210px 210px;
+    justify-content: center;
+    align-items: center;
 }
 .AboutUs{
     width:100%;

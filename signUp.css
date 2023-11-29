@@ -10,6 +10,9 @@
 body{
     background-image: linear-gradient(to right, #1a4416, rgb(46, 129, 74));  
 }
+a{
+    color:black !important;
+}
 .container{
  background-color: white;
  height:600px;

@@ -28,6 +28,7 @@ box-shadow: 5px 5px 10px #242323;
 .login{
   padding: 10px;
 }
+
 #name, #password{
     height:50px;
     width:27vw;
@@ -65,4 +66,7 @@ p{
 }
 #signUp{
     color: var(--checkColor);
+}
+a{
+    color:black !important;
 }
